@@ -24,5 +24,5 @@ def part2(steps: Int): Int = {
   }._2
 }
 
-println(getNumber(List(0), 0, 2017, 2017))
-println(part2(50000000))
+println(s"Part 1: ${getNumber(List(0), 0, 2017, 2017)}")
+println(s"Part 2: ${part2(50000000)}")
